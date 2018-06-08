@@ -41,16 +41,18 @@ console.log(result);
 let descifrado ="";
     let mensa = men.value;
     let saltos = parseInt(salt.value);
+
+
     for (i = 0; i < mensa.length; i++) {
     let no_ascii = mensa.charCodeAt(i);
 
     if (no_ascii >= 65 && no_ascii <= 90){
 
-   descifrado += String.fromCharCode((no_ascii - 65 - saltos ) % 26 + 65);
+   descifrado += String.fromCharCode((no_ascii - 90 - saltos ) % 26 + 90);
     document.getElementById("resultado").innerHTML = descifrado;
 
     }else if (no_ascii >= 97 && no_ascii <= 122) {
-    descifrado +=  String.fromCharCode((no_ascii - 97 -saltos) % 26 + 97);
+    descifrado +=  String.fromCharCode((no_ascii - 122 - saltos) % 26 + 122);
     document.getElementById("resultado").innerHTML = descifrado;
     console.log(descifrado);
   }else
