@@ -1,0 +1,26 @@
+html{
+box-sizing: border-box;
+background-color:white;
+font-family: 'Indie Flower', cursive;
+}
+
+}
+h1{
+margin: 0;
+padding: 10px 10px;
+font-size: 45px;
+
+}
+
+.CifradoCesar{
+box-sizing: border-box;
+height: 100px;
+background-color:#CCBEC5;
+padding: 20px;
+}
+
+.botones{
+padding-top: 50px;
+font-size: 20px;
+
+}
