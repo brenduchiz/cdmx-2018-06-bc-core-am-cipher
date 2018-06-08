@@ -46,7 +46,7 @@ let descifrado ="";
 
     if (no_ascii >= 65 && no_ascii <= 90){
 
-   descifrado += String.fromCharCode((no_ascii - 65 - saltos) % 26 + 65);
+   descifrado += String.fromCharCode((no_ascii - 65 - saltos ) % 26 + 65);
     document.getElementById("resultado").innerHTML = descifrado;
 
     }else if (no_ascii >= 97 && no_ascii <= 122) {
