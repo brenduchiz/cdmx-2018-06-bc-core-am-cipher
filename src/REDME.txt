@@ -1,0 +1,4 @@
+Preámbulo
+
+*cifrar y descifrar 
+contraseñas para abrir documentos ultra secretos.*
