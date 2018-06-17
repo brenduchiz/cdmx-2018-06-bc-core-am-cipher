@@ -3,30 +3,60 @@
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
     <link rel="stylesheet" href="style.css" />
   </head>
+
+
   <body>
 
-<div align="center" class="CifradoCesar">
 
-<h1>Cifrado Cesar</h1>
+    <section id="GetStarted" class="intro">
+      <div class="inner">
+        <div class="content">
+          <h1>Cesar Cipher</h1>
 
+              <a  class="btn" id="Start">Get Started</a>
+        </div>
+
+      </div>
+
+    </section>
+
+<div class="contain-fluid">
+<section class="row">
+  <h1 class="col-md-12">Bienvenido a Cesar Cipher</h1>
+</div>
+</section>
+
+
+
+<div class="container-fluid">
+<section class="main row">
+
+<div   class="col-md-8">
+
+
+
+  <label class="input">Ingresa tu mensaje para cifrar o descifrar</label>
+  <p><input type="text" id="mensaje"></p>
+  <label class="input">Ingresa tu clave numerica</label>
+  <p><input type="text" id="num_salt"></p>
+  <label class="input"></label>
+
+<p><div id=resultado>   </div></p>
+
+
+<th><span id="buttonC"  ><button>Cifrar!!</button></span></th>
+<th><span id="buttonD" ><button>Descifrar!!</button></span></th>
 </div>
 
-<div align="center" class="botones">
 
-
-Introduce palabra a cifrar. </span><p><input type="text" id="mensaje"></p>
-Introduce el número de saltos. </span><p><input type="text" id="num_salt"></p>
-Resultado!!! <div id=resultado>   </div>
-
-
-
-    <th><span id="buttonC"><button>Cifrar!!</button></span></th>
-    <th><span id="buttonD"><button>Descifrar!!</button></span></th>
+<img class="col-md-4" src="peque.png" ></img>
 
 </div>
-
+</section>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

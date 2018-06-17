@@ -1,26 +1,137 @@
-html{
+
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon|Gaegu|Julius+Sans+One|Monoton|Pridi');
+@import url('https://fonts.googleapis.com/css?family=Candal');
+
+
+html, body{
 box-sizing: border-box;
 background-color:white;
-font-family: 'Indie Flower', cursive;
-}
-
-}
-h1{
+font-family: 'Gaegu', cursive;
 margin: 0;
-padding: 10px 10px;
-font-size: 45px;
+padding: 0;
+height: 100%;
+width: 100%;
+}
+
+
+
+h1{
+text-shadow: 0px 0px 300px #000;
+margin-top: 0px;
+  font-size: 90px;
 
 }
 
-.CifradoCesar{
-box-sizing: border-box;
-height: 100px;
-background-color:#CCBEC5;
-padding: 20px;
+.container-fluid{
+padding-top: 100px;
+  }
+
+
+
+.intro{
+height: 100%;
+width: 100%;
+background-image: url("CIPHER.png");
+display: table;
+top: 0;
+background-size: cover;
+}
+
+.intro.inner{
+display: table-cell;
+vertical-align:middle;
+width: 100%;
+max-width: none;
+}
+
+.content{
+max-width: 1300px;
+
+position: relative;
+top: 1px;
+text-align: center;
+  }
+
+.btn{
+  border-radius: 9px;
+  padding: 20px 40px;
+  border: solid #F7DC6F 4px;
+font-family: 'Candal', sans-serif;
+  color:#050404     ;
+  position: relative;
+  top: 380px;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+text-align: center;
+background-color: #F7DC6F;
+  }
+
+.btn:hover{
+  color: #000000     ;
+  border: solid #000000       3px;
+
 }
 
 .botones{
 padding-top: 50px;
 font-size: 20px;
 
+}
+
+#mensaje{
+height: 50px;
+width: 600px;
+border: 1px solid #DBE1EB;
+}
+
+#num_salt{
+height: 50px;
+width: 600px;
+border: 1px solid #DBE1EB;
+}
+
+.input{
+font-size: 30px;
+}
+
+
+.contain-fluid{
+background: #FBFF00 ;
+
+height: 60px;
+
+}
+
+
+
+
+.col-md-4{
+padding-right:100px;
+  }
+
+.col-md-8{
+padding-left: 200px;
+padding-top: 30px;
+  }
+
+#resultado{
+  font-size: 40px;
+  }
+
+#buttonD,#buttonC
+{  font-size: 25px;
+
+}
+
+
+#buttonC
+{  font-size: 25px;
+padding-left: 180px;
+
+}
+
+#buttonD
+{ padding-left: 50px;
+font-size: 25px;
 }
