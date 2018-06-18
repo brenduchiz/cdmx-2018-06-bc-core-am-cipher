@@ -1,13 +1,13 @@
 Prembulo
 
-#Cesar Cipher
+# Cesar Cipher
 
 Necesitas mandar información ultra secreta ya sea contraseñas para abrir un archivo o talvez
 un mensaje que no quieres que nadie lea 🙈 y usualemnte lo compartes por correo o por cualquier otro medio digital los cuales no son medios del todo seguros.
 
 Debido a esto optas por cifrar tus mensajes y darte a la tarea de econtar la manera mas fácil de hacerlo.
 
-##Objetivo
+## Objetivo
 
 Cesar Cipher es una aplicación web la cual tiene como objetivo cifrar y descifrar información ultra secreta para
 que llegue con toda la seguridad a su destino.
